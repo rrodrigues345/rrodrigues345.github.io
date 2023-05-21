@@ -14,24 +14,21 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/icons8-dev.gif" />
 
     <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudfare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   </head>
   <body>
     <!-- Navbar -->
     <nav>
       <h1>RICARDO RODRIGUES</h1>
-      <ul class="navegacao">
-        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projetos" class="nav-link">Projetos</a></li>
-        <li><a href="#contato" class="nav-link">Contato</a></li>
-        <li><a href="#artigos" class="nav-link">Artigos</a></li>
+        <li><a href="#projects" class="nav-link">Projetos</a></li>
+        <li><a href="#contacts" class="nav-link">Contato</a></li>
+        <li><a href="#articles" class="nav-link">Guias</a></li>
       </ul>
-      <button class="hamburguinho" id="hamburguinho">
+      <button class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
       </button>
     </nav>
@@ -47,7 +44,7 @@
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">Sobre</h2>
         <p class="bio-text">
-          Apaixonado por ciência e tecnologia, dedicou-se a explorar as fronteiras do conhecimento no desenvolvimento de fármacos através de métodos computacionais, buscando causar um impacto positivo na vida das pessoas. Com experiências internacionais, fortaleci minhas habilidades de comunicação em inglês e equipes multidisciplinares. Atualmente, estou trilhando uma nova trajetória no fascinante universo da programação, aprimorando minhas habilidades em linguagens como Ruby, Python e C#. Se procura alguém apaixonado, proativo e com habilidades em gerenciamento de equipes, entre em contato e juntos moldaremos um futuro repleto de inovação e impacto positivo. Estou apenas a um e-mail de distância: rrodrigues.code@gmail.com.
+          Apaixonado por ciência e tecnologia, dedicou-se a explorar as fronteiras do conhecimento no desenvolvimento de fármacos através de métodos computacionais, buscando causar um impacto positivo na vida das pessoas. Com experiências internacionais, fortaleci minhas habilidades de comunicação em inglês e equipes multidisciplinares. Atualmente, estou trilhando uma nova trajetória no fascinante Universo da Programação, aprimorando minhas habilidades em linguagens como Ruby, Python e C#. Se procura alguém apaixonado, proativo e com habilidades em gerenciamento de equipes, entre em contato e juntos moldaremos um futuro repleto de inovação e impacto positivo. Estou apenas a um e-mail de distância: rrodrigues.code@gmail.com.
         </p>
       </div>
 </section>
@@ -125,6 +122,57 @@
     </section>
 
     <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projetos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+        	<a href="https://rrodrigues345.github.io/js-relogio" target="_blank">
+            <img
+            src="https://rrodrigues345.github.io/js-relogio/relogio.png"
+            alt="js-relogio"
+            loading="lazy"
+            class="project-pic"
+            />
+          </a>
+          <h3 class="project-title">Relógio JavaScript</h3>
+          <p class="project-details">
+              Este projeto é uma implementação de um relógio digital em tempo real, usando JavaScript. O código utiliza o objeto <code>Date</code> do JavaScript para obter a hora atual do sistema operacional.
+</p>
+          <a href="https://rrodrigues345.github.io/js-relogio" target="_blank" class="project-link">Acesse aqui</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Contact section -->
 
