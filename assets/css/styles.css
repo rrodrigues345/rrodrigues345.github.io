@@ -263,3 +263,7 @@ nav ul li {
   padding-right: 10px;
 }
 
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: var(--primary-color);
+}
