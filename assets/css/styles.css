@@ -140,9 +140,13 @@ nav ul li {
 */
 
 .hero img {
-  width: 100%;
+  margin-top: 2rem;
+  width: 25rem%;
   height: 37.5rem;
   object-fit: cover; /* ou "contain", dependendo do efeito desejado */
+  border-radius:100px;
+  box-shadow: 0px 2px 10px 2px var(--primary-shadow);
+
 }
 
 
@@ -158,8 +162,8 @@ nav ul li {
 .bio {
   width: 25rem;
   padding: 0.625rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  /*border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
   text-align: justify;
 
 }
@@ -175,7 +179,7 @@ nav ul li {
 
 .bio p {
   line-height: var(--line-height);
-  padding: 0.3rem 0;
+  padding: 1rem 0;
 }
 
 .more-about {
