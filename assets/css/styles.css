@@ -133,10 +133,18 @@ nav ul li {
   max-width: 68.75rem;
 }
 
-.hero img {
+/*.hero img {
   height: 37.5rem;
   width: 33rem;
 }
+*/
+
+.hero img {
+  width: 100%;
+  height: 37.5rem;
+  object-fit: cover; /* ou "contain", dependendo do efeito desejado */
+}
+
 
 /*
 .container img {
@@ -152,10 +160,17 @@ nav ul li {
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  text-align: justify;
+
 }
 
 .bio h1 {
   margin-bottom: var(--bottom-margin);
+}
+
+.bio-title {
+  text-align: center;
+
 }
 
 .bio p {
@@ -392,7 +407,7 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+    margin-top: 0.1rem;
     flex-direction: column;
     gap: 0;
   }
@@ -403,7 +418,7 @@ footer {
     }
 
   .bio {
-    margin-top: -7rem;
+    margin-top: 2rem;
     width: 20.5rem;
   }
 
